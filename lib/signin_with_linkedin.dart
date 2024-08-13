@@ -37,6 +37,7 @@ final class SignInWithLinkedIn {
     _linkedinCore.signIn(
       context,
       config: config,
+      appBar:appBar,
       onGetAuthToken: onGetAuthToken,
       onGetUserProfile: onGetUserProfile,
       onSignInError: onSignInError,
