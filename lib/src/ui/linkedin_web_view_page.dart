@@ -65,7 +65,7 @@ class _LinkedInWebViewPageState extends State<LinkedInWebViewPage> {
     return Scaffold(
       appBar: widget.appBar ??
           AppBar(
-            title: const Text('Sign in with LinkedIn'),
+            title: const Text('Se connecter avec LinkedIn'),
           ),
       body: WebViewWidget(controller: _webViewController),
     );
